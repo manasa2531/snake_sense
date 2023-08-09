@@ -1,0 +1,88 @@
+<!-- Contact -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact us</title>
+    </head>
+    <body>
+ <div id="contact">
+    <div class="container">
+    
+      <h3><span>Contact Us! </span></h3>
+      <h1><input type="image" src="./images/10757342.png" alt="Snake" width="130" height="130"></h1>
+      <div class="contact-form">
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <button type="button" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer id="main-footer">
+    <div class="container">
+    
+    </div>
+  </footer>
+</body>
+</html>
+
+<style>
+    /* Contact Us */
+#contact h3{
+    width: 100%;
+    border-bottom: 0.5px solid #d0a66a;
+    margin-bottom: 35px;
+    
+}
+
+#contact h3 span{
+    background: #480f08;
+    padding: 10px 22px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#contact textarea{
+    height: 200px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: white;
+
+}
+body {
+    background-color:#d0a66a ;
+     
+  }
+  
+</style>
