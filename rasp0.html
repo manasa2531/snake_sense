@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Raspberry pi0</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown mx-lg-5">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                list
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                <li><a class="dropdown-item" href="#">Option 3</a></li>
+              </ul>
+            </li>
+            <!-- Pages -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Pi Logo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-5" aria-current="page" href="#"
+                >Pi Components</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Pin Diagram</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-5" aria-current="page" href="#"
+                >Pi Family</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Pi Connections</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-5" aria-current="page" href="#"
+                >Pi evolution</a
+              >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active mx-lg-5" aria-current="page" href="#"
+                  >Pi Cam</a
+                >
+              </li>
+            
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">option1</a></li>
+                <li><a class="dropdown-item" href="#">option2</a></li>
+                <li><a class="dropdown-item" href="#">option3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div
+      class="jumbotron p-5 bg-primary d-flex flex-column align-items-center justify-content-center"
+      style="height: 80vh"
+    >
+      <h1 class="display-4 text-black mb-5 fw-bold">The fastest hardware device : Raspberry Pi</h1>
+      <p style="color:#480f08;">
+        When the decline in numbers and skills of students applying for Computer Science became a concern for a team that included Eben Upton, Rob Mullins, Jack Lang and Alan Mycroft at the University of Cambridge’s Computer Laboratory in 2006, a need for a tiny and affordable computer came to their minds. 
+        In 2008, the team started a collaboration with Pete Lomas, MD of Norcott Technologies and David Braben.
+        In early 2013 the organization split into two parts: Raspberry Pi Foundation, which is responsible for the charitable and educational activities; and Raspberry Pi Trading Ltd, responsible for the engineering and trading activities.Raspberry Pi(Trading) Ltd is a wholly owned subsidiary of Raspberry Pi Foundation, with the money earned from sales of Raspberry Pi products being used to fund the charitable work of the Foundation. 
+        Eben Upton was initially CEO of both divisions, but in September 2013 Lance Howarth became CEO of the Raspberry Pi Foundation,with Eben Upton remaining as CEO of Raspberry Pi (Trading) Ltd. Philip Colligan took over from Lance Howarth as CEO of Raspberry Pi Foundation in July 2015
+      </p>
+      <hr class="my-4 black-text">
+      <p style="color: #480f08;">
+        In October 2011, the foundation's logo was selected from a number submitted from open competition. A shortlist of six was drawn up, with the final judging taking several days.
+         The chosen design was created by Paul Beech and depicts a raspberry, in the style of a buckminsterfullerene molecule
+      </p>
+      <p class="lead  mt-5">
+        <a class="btn btn-secondary btn-lg fa-li fa fs-4 " href="#" role="button"
+          >Raspberry Pi0<i class="bi bi-send-fill"></i
+        ></a>
+    </p>
+    </div>
+
+    <!-- Main -->
+    <div class="container">
+      <!-- Perks -->
+      <div class="row justify-content-center my-5 p-5" id="perks">
+        <div
+          class="col-sm-12 col-lg-2 d-flex flex-column justify-content-center align-items-center border-top border-bottom py-4 mx-3"
+        >
+          <div><img src="./images/" alt="" /></div>
+          <div class="fw-bold fs-1 text-primary text-center my-2">Pi <br> Uses</div>
+          <div class="fs-3 text-center">Replacing web servers,
+                                        Controlling IOT robots,
+                                        Acting as a printer user
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-lg-2 d-flex flex-column justify-content-center align-items-center border-top border-bottom py-4 mx-3"
+        >
+          <div><img src="./images/" alt="" /></div>
+          <div class="fw-bold fs-1 text-primary text-center my-2">Pi Features</div>
+          <div class="fs-3 text-center">CPU,HDMI Port,GPU,
+                                        RAM,Ethernet port,
+                                        SDcard Slot</div>
+        </div>
+        <div
+          class="col-sm-12 col-lg-2 d-flex flex-column justify-content-center align-items-center border-top border-bottom py-4 mx-3"
+        >
+          <div><img src="./images/" alt="" /></div>
+          <div class="fw-bold fs-1 text-primary text-center my-2">Pi specifications</div>
+          <div class="fs-3 text-center">512MB RAM,mini-HDMI,
+                                        Micro-power,40-pin header,
+                                        reset headers,CSI
+
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-lg-2 d-flex flex-column justify-content-center align-items-center border-top border-bottom py-4 mx-3"
+        >
+          <div><img src="./images/" alt="" /></div>
+          <div class="fw-bold fs-1 text-primary text-center my-2">Pi <br> PinOut</div>
+          <div class="fs-3 text-center">The Raspberry Pi GPIO pinout guide.
+            <br><br>
+            <a href="https://pinout.xyz/">https://pinout.xyz/</a>
+            <br>
+            </div>
+        </div>
+      </div>
+
+      <!-- Our Partners -->
+      <div class="row my-5" id="partners">
+        <p style="font-size:larger #480f08;">
+          The first-generation Raspberry Pi Model B was released in February 2012, followed by the simpler and cheaper Model A.
+          In 2014, the Foundation released a board with an improved design, Raspberry Pi Model B+.
+          These first-generation boards feature ARM11 processors, are approximately credit-card sized, and represent the standard mainline form factor.
+          The Raspberry Pi 2 was released in February 2015 and initially featured a 900 MHz 32-bit quad-core ARM Cortex-A7 processor with 1 GB RAM. 
+          The Raspberry Pi 3 Model B was released in February 2016 with a 1.2 GHz 64-bit quad core ARM Cortex-A53 processor, on-board 802.11n Wi-Fi, Bluetooth and USB boot capabilities.
+          On Pi Day 2018, the Raspberry Pi 3 Model B+ was launched with a faster 1.4 GHz processor, a three-times faster Gigabit Ethernet.
+          The Raspberry Pi 4 Model B was released in June 2019[1] with a 1.5 GHz 64-bit quad core ARM Cortex-A72 processor.
+          The Raspberry Pi 400 was released in November 2020. A modern example of a keyboard computer, it features 4 GB of LPDDR4 RAM on a custom board derived from the existing Raspberry Pi 4 combined with a keyboard in a single case. 
+          A Raspberry Pi Zero with smaller size and reduced input/output (I/O) and general-purpose input/output (GPIO) capabilities was released in November 2015 for US$5.
+          Raspberry Pi Pico was released in January 2021 with a retail price of $4.[40] It was Raspberry Pi's first board based upon a single microcontroller chip; the RP2040, which was designed by Raspberry Pi in the UK.[41] The Pico has 264 KB of RAM and 2 MB of flash memory. 
+          It is programmable in C, C++, Assembly, MicroPython, CircuitPython and Rust
+        </p>
+        
+      </div>
+
+      <!-- Latest Release -->
+      <div class="row my-5 justify-content-center" id="release">
+        <div class="row justify-content-center">
+          <!-- Left Bar -->
+          <div class="col-sm-12 col-lg-3 p-3" id="leftbar">
+            <span class="fs-2">Recommended</span>
+
+            <!-- Block 1 -->
+            <div class="row my-3" id="details">
+              <div><img src="assets/person.png" alt="" /></div>
+              <div class="fw-bold">Voltages
+                </div>
+              <div>Two 5V pins and two 3.3V pins are present on the board, as well as a number of ground pins (0V), which are unconfigurable. 
+                The remaining pins are all general purpose 3.3V pins, meaning outputs are set to 3.3V and inputs are 3.3V-tolerant..</div>
+              <div class="text-muted mt-3">june 2023</div>
+              <div class="mt-3 fs-1">
+                <i class="bi bi-arrow-right" style="color: #480f08"></i>
+              </div>
+            </div>
+
+            <hr />
+
+            <!-- Block 2 -->
+            <div class="row my-3" id="details">
+              <div><img src="assets/person.png" alt="" /></div>
+              <div class="fw-bold">Inputs.</div>
+              <div>A GPIO pin designated as an input pin can be read as high (3.3V) or low (0V). This is made easier with the use of internal pull-up or pull-down resistors.
+                 Pins GPIO2 and GPIO3 have fixed pull-up resistors, but for other pins this can be configured in software.</div>
+              <div class="text-muted mt-3">june 2023</div>
+              <div class="mt-3 fs-1">
+                <i class="bi bi-arrow-right" style="color: #480f08"></i>
+              </div>
+            </div>
+
+            <hr />
+
+            <!-- Block 3 -->
+            <div class="row my-3" id="details">
+              <div><img src="assets/person.png" alt="" /></div>
+              <div class="fw-bold">Outputs
+              </div>
+              <div>A GPIO pin designated as an output pin can be set to high (3.3V) or low (0V).
+              </div>
+              <div class="text-muted mt-3">june 2023</div>
+              <div class="mt-3 fs-1">
+                <i class="bi bi-arrow-right" style="color: #480f08"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Center Bar -->
+          <div class="col-sm-12 col-lg-5" id="centerbar">
+            <div><img src="assets/women.png" alt="" class="img-fluid" /></div>
+            <div class="text-primary fw-bold fs-1">
+              Lets together eradicate snake bites,mainly in farms and villages with use of microprocessors as well...
+            </div>
+            <div class="text-primary fs-4 mt-3">
+              
+            </div>
+            <div class="text-muted mt-3 fs-4">june 2023</div>
+            <button class="btn btn-primary mt-5 p-3 fs-4">
+              SnakeSense
+            </button>
+          </div>
+          <!-- Right Bar -->
+          <div class="col-sm-12 col-lg-4 p-3" id="rightbar">
+            <span class="fs-2">Raspberry Pi Zero :</span>
+            <!-- Block 1 -->
+            <div class="row d-flex flex-column p-3">
+              <div class="col-4"><img src="large.jpg" alt="" /></div>
+              <div class="col-10 mt-2">
+                <div class="row">
+                  <div class="fw-bold">
+                    In 2015, the foundation announced the Raspberry Pi Zero
+                  </div>
+                  <div class="text-muted mt-2">This version of the microcomputer had a significantly reduced form factor and a lower price, 
+                    launching at £4/$5. 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Block 2 -->
+            <div class="row d-flex flex-column p-3">
+              <div class="col-4"><img src="assets/building.png" alt="" /></div>
+              <div class="col-10 mt-2">
+                <div class="row">
+                  <div class="fw-bold">
+                    The new model features a 1 GHz, single-core CPU
+                  </div>
+                  <div class="text-muted mt-2">512 MiB RAM, USB and mini HDMI ports, micro USB power, and a HAT-compatible 40-pin header as well as composite video and reset headers 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Block 3 -->
+            <div class="row d-flex flex-column p-3">
+              <div class="col-4"><img src="assets/building.png" alt="" /></div>
+              <div class="col-10 mt-2">
+                <div class="row">
+                  <div class="fw-bold">
+                    As a fully functioning Linux system the Raspberry Pi Zero's 1 GHz processor is comparable to the middle of the road for the Intel Pentium 3.
+                    The reduced price and smaller form factor encourages use in smaller and embedded projects. 
+                  </div>
+                  <div class="text-muted mt-2">architecture (450 MHz to 1.4 GHz), a standard in 2000.Dimentions - Pi Zero-65mm x 30mm,
+                    Pi B+-85mm x 56mm
+                    Pi 2-85mm x 56mm,
+                    Pi 3 Model B-85mm x 56mm x 17mm 
+                    Pi 3 Model B+-85mm x 56mm x 17mm
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-primary fs-4 p-3">SnakeSense</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Us -->
+      <div class="row p-sm-4 p-lg-5 my-5" id="aboutus">
+        <h3 class="display-6 text-primary text-center fw-bold mb-5">
+          Pi Cam: a Raspberry Pi-powered remote camera
+        </h3>
+        
+        <div
+        class="col-sm-12 col-lg-5 p-lg-5 d-flex flex-column align-items-center justify-content-center"
+        >
+        <div class="row mb-3">
+          <div class="col-6">
+            <img src="./images/Camera_Module_v2.1_2_of_3_1024x1024.webp" alt="" class="img-fluid" />
+          </div>
+          <div class="col-6">
+            <img src="./images/Pi-Camera-V2-1-1024x931.jpg"alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/raspberry-pi-cam-00001.jpg
+            " alt="" class="img-fluid" />
+          </div>
+          <div class="col-6">
+            <img src="./images/raspberry-pi-camera.avif" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+        
+        <div class="col-sm-12 col-lg-7 p-lg-5">
+          <p class="description">
+            Pi Cam is an all-in-one desktop camera that can be accessed from anywhere in the world. 
+            You can use Pi Cam to monitor your 3D printer so you don’t waste precious filament, or set it up and leave it to record timelapse video. 
+            You could also just leave it on your desk and use its Raspberry Pi 4 as a server or a desktop computer when the camera function isn’t needed.
+          </p>
+          <p class="description">
+            Raspberry Pi High Quality Camera
+            Arducam lens for Raspberry Pi camera (this 16mm telephoto or this 6mm wide-angle will work)
+            Fan to keep everything cool
+          </p>
+          <p class="description">
+            3D-printed parts to keep everything together and looking chic (here are all the STL files if you’d like to print your own. 
+            You can also modify the design model in Fusion 360 if you want to make tweaks)
+          </p>
+          <p class="fw-bold mt-4">
+            A Raspberry Pi 4 sits screwed safely inside the case, with the HQ Camera mounted and held in place by a separate 3D-printed part.
+             The lens is mounted after everything else has been connected and screwed in.
+            Maker has put together dreamily comprehensive step-by-step instructions. 
+            He walks you through printing and screwing the case together and wiring everything up to your Raspberry Pi.
+            Then onto creating a remote.it account and setting up Remote VNC so you can control Pi Cam from anywhere.
+            We’d rather not say what Pi Cam would capture if it were left on timelapse mode at our Pi Towers desks.
+             But you’d make our day if you cared to share what shenanigans go on in your working environment.
+             If only to make us feel less chaotic.
+          </p>
+          <p>
+            <i class="bi bi-check-all" style="color: #480f08"></i> How to control the pi camera using Python
+            How to use raspivid, raspistill and raspiyuv utilities
+            
+            <br />
+            <i class="bi bi-check-all" style="color: #480f08"></i> How to use start_preview() and stop_preview() to display the image from the camera
+            How to take photos using the capture() command()
+            <br />
+            <i class="bi bi-check-all" style="color: #480f08"></i> How to record video using start_recording() and stop_recording()
+            How to view the video via omxplayer 
+            <br />
+            <i class="bi bi-check-all" style="color: #480f08"></i> How to change the brightness, contrast, and resolution in photos
+            How to apply visual effects to video
+          </p>
+          <button class="btn btn-primary fs-4 p-3 mt-4">
+            SnakeSense
+          </button>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div
+        class="row px-sm-3 px-lg-5 py-5 justify-content-center bg-primary my-5"
+        id="form"
+      >
+        <h3 class="display-6 text-center text-white mb-5"></h3>
+        <p class="description text-center mb-4 text-white">
+  
+        </p>
+        <div class="col-sm-12 col-lg-8 bg-white mt-5">
+          <div class="row p-5">
+            <span class="text-center text-primary fs-3"
+              >If you need more information?</span
+            >
+            <!-- Form -->
+            <div class="col-12 mt-3" id="form">
+              
+              
+
+      <!-- Contact Us -->
+      <div class="row my-5 bg-secondary p-5" id="contact">
+        <div class="col-12">
+          <h3 class="display-6 fw-bold text-white mb-3">References :</h3>
+          <p class="description mb-4">
+            <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">https://en.wikipedia.org/wiki/Raspberry_Pi</a>
+          </p>
+          <p class="description mb-4">
+            <a href="https://www.raspberrypi.com/news/pi-cam-a-raspberry-pi-powered-remote-camera/">https://www.raspberrypi.com/news/pi-cam-a-raspberry-pi-powered-remote-camera/</a>
+          </p>
+          <p class="description mb-4">
+            <a href="https://www.seeedstudio.com/blog/2020/01/20/20-best-raspberry-pi-camera-projects-to-try-in-2020/">https://www.seeedstudio.com/blog/2020/01/20/20-best-raspberry-pi-camera-projects-to-try-in-2020/</a>
+          </p>
+          <p class="description mb-4">
+            <a href="https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#inputs">https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#inputs</a>
+          </p>
+          <button class="btn btn-primary fs-4">
+            <i class="bi bi-phone-fill"></i> +91 9154544824
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="row p-5 my-5" id="footer">
+        <!-- Footer Icons -->
+        <div class="row mb-5 justify-content-center" id="footer-icons">
+          <div class="col-2 text-center">
+            <i class="bi bi-linkedin fs-2" style="color: #0077b5"></i>
+          </div>
+          <div class="col-2 text-center">
+            <i class="bi bi-twitter fs-2" style="color: #38a1f3"></i>
+          </div>
+          <div class="col-2 text-center">
+            <i class="bi bi-facebook fs-2" style="color: #3b5998"></i>
+          </div>
+          <div class="col-2 text-center">
+            <i class="bi bi-youtube fs-2" style="color: #c4302b"></i>
+          </div>
+          <div class="col-2 text-center">
+            <i class="bi bi-envelope-fill fs-2" style="color: #0066cc"></i>
+          </div>
+        </div>
+
+        <!-- Footer Text -->
+        <p class="description text-center text-muted">
+           © 2023 SnakeSense All rights reserved.
+          <br />
+          Registered address: Anil neerukonda institute of technologies and sciences,bheemunipatnam,India
+          <br /><br />
+          Data Protection Policies | Cookies Policy | FAQs | Contact Us 
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<style>
+    /* #2c1d3a (Primary) */
+/* #692e5e (Secondary) */
+/* #f6fafd (tertiary) */
+
+.text-primary{
+    color: #2c1d3a !important;
+}
+
+.bg-primary{
+    background-color: #d0a66a !important;
+}
+
+.bg-secondary{
+    background-color: #480f08 !important;
+}
+
+.btn-primary{
+    background-color: #480f08 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+}
+
+.btn-secondary{
+    background-color: #480f08 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+}
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#form input {
+    border: none !important;
+    border-bottom: 2px solid grey !important;
+    border-radius: 0 !important;
+
+    padding-bottom: 1.5rem !important;
+}
+div {
+  color: black;
+}
+
+</style>
